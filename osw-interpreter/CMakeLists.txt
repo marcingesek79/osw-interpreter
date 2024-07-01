@@ -1,9 +1,3 @@
-﻿# CMakeList.txt : CMake project for osw-interpreter, include source and define
-# project specific logic here.
-#
-cmake_minimum_required (VERSION 3.8)
+﻿cmake_minimum_required (VERSION 3.8)
 
-# Add source to this project's executable.
-add_executable (osw-interpreter "osw-interpreter.cpp" "osw-interpreter.h")
-
-# TODO: Add tests and install targets if needed.
+add_executable (osw-interpreter "main.cpp" )
