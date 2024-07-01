@@ -1,7 +1,8 @@
-﻿#include <iostream>
+﻿#include <fmt/core.h>
 
-int main()
+int main([[maybe_unused]] int argc, [[maybe_unused]] char* argv[])
 {
-	std::cout << "Hello CMake." << std::endl;
+	fmt::println("Hello world!");
+
 	return 0;
 }
